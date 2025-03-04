@@ -11,9 +11,11 @@ This tool is ideal for managing documents with identical main bodies but varying
 1. **Scenario**: For documents that are 10 pages long with unique first and last pages:
    
 2. **Preparation**:
-   - **Scan Unique Pages**: Scan only differing pages (e.g., first and last pages).
+   - **Select Unique Pages**: Select only unique pages (e.g., first and last pages).
    - **Stacking**: Stack them sequentially (e.g., first-last, first-last).
-   - **Input File**: Compile these pages into a single PDF to use alongside your `body.pdf`.
+   - **Scan**: Scan stack as one document.
+   - **Input File**: Rename scaned file as input.pdf.
+   - **Put files in one folder**: Put the files(input.pdf,body.pdf) in the same folder as the script.
 
 3. **Using the Script**:
    - Specify the order using a list (e.g., `[0, 9]` for 10-page documents).
